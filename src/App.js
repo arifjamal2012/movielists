@@ -35,6 +35,7 @@ export default function App() {
         {Object.keys(topMovies).map((lists) => (
           <button
             onClick={() => moviesHandler(lists)}
+            key={lists}
             style={{
               fontSize: "25px",
               color: "Blue",
